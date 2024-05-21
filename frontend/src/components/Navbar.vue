@@ -12,18 +12,18 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav nav-tabs ms-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">HOME</a>
+          <router-link :to="{name: 'home'}" class="nav-link" href="#">HOME</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
+          <router-link :to="{name: 'about'}" class="nav-link" href="#">ABOUT</router-link>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">SHOP</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT</a>
+          <router-link :to="{name: 'contact'}" class="nav-link" href="#">CONTACT</router-link>
         </li>
       </ul>
     </div>
