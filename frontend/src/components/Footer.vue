@@ -1,8 +1,6 @@
 <template>
-    <div class="container">
-        
-           
-  <footer class="py-5 border-top">
+    <div class="footer">
+    <footer class="py-5 border-top">
    
     <div class="row">
       <div class="col-2">
@@ -63,3 +61,9 @@
 </div>
 
 </template>
+<style>
+.footer {
+   padding-top: 200px;
+
+}
+</style>

@@ -18,10 +18,11 @@
         <div class="col-4 col-md-3 mx-auto">
           <img src="@/components/images/azagr4.jpeg" alt="" class="img-fluid img-thumbnail card-img">
         </div>
-        <!-- Aggiungi altre colonne per altre immagini se necessario -->
+      
       </div>
+      <router-link :to="{name: 'about'}" class="btn btn-primary mt-3">See more</router-link>
     </div>
-    <a href="#" class="btn btn-primary mt-3">See more</a>
+    
   </div>
 </div>
 
@@ -29,6 +30,7 @@
   </template>
   
   <script setup>
+  
 
   
   </script>

@@ -30,17 +30,15 @@ export default {
 <style scoped>
 .carousel-inner {
   width: 100%;
-  height: 500px; /* Imposta l'altezza desiderata */
+  height: 500px; 
 }
 
 .carousel-inner img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Adatta l'immagine, ritagliando se necessario */
+  object-fit: cover; 
 }
-.carousel {
-  margin-top: 60px; /* Regola questa altezza in base all'altezza della tua navbar */
-}
+
 
 
 </style>

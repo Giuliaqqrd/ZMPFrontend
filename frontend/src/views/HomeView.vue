@@ -14,29 +14,20 @@
         </div>
         
     </div>
+    
     <div class="container">
     <CompanyCard></CompanyCard>
     </div>
-
-  <main> 
-
-
-
-
-
-  </main>
 </template>
-<script>
+<script setup>
+
 import Carousel from '@/components/Carousel.vue';
 import CompanyCard from '@/components/card/CompanyCard.vue';
 
-export default{
-  components: {Carousel, CompanyCard}
-
-}
 </script>
 
 <style scoped>
+
 .poetsen-one-regular {
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;

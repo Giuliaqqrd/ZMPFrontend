@@ -1,14 +1,16 @@
 <template>
-    <Navbar></Navbar>
-
+  <div class="fixed-top">
+    <Navbar/>
+    <CartView></CartView>
+  </div>
 <header>
-
- 
 </header>
 </template>
 
 <script setup>
 import Navbar from '@/components/Navbar.vue';
+import CartView from '@/components/CartView.vue';
+
 
 </script>
 <style scoped>
