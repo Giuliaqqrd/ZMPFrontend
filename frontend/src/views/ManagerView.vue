@@ -1,6 +1,6 @@
 <template>
 
-    <div>
+    <div class="pad">
         <h1>Manager Dashboard</h1>
         <h3>Welcome back {{ sessionStore.user.name }}</h3>
     </div>
@@ -171,3 +171,8 @@ const addNewProduct = async () => {
 }
 
 </script>
+<style scoped>
+.pad {
+  padding-top: 60px;
+}
+</style>

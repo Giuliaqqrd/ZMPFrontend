@@ -95,7 +95,7 @@ router.beforeEach((to, from, next) => {
 
   if (to.matched.some(record => record.meta.requiresAuth)) {
     if (!authStore.isAuth) {
-      next('/login');
+      next('/landing');
     } else {
       if (to.matched.some(record => record.meta.requiresCompany)) {
         if (authStore.user.role === 1) {

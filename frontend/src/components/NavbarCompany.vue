@@ -30,11 +30,10 @@
 
         <div class="btn-group">
         <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-            <img :src="picture" class="profile-picture">
+            <img src="@/components/images/azagr1.jpeg" class="profile-picture">
         </button>
         <ul class="dropdown-menu dropdown-menu-lg-end">
-            <li><router-link :to="{name: 'profile'}" class="dropdown-item" href="#">View profile</router-link></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><router-link :to="{name: 'manager'}" class="dropdown-item" href="#">Manage</router-link></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" @click="sessionLogout">Logout</a></li>
         </ul>

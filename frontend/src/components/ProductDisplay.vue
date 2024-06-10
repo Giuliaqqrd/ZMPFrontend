@@ -1,7 +1,7 @@
 <template>
   <div class="product-display">
     <div v-for="product in products" :key="product.id" class="product-item">
-      <img :src="product.image" class="product-image">
+      <img src="@/components/images/productview.png" class="product-image">
       <div class="product-details">
         <h5 class="product-name">{{ product.name }}</h5>
         <p class="product-quantity">Quantity: {{ product.quantity }}</p>
